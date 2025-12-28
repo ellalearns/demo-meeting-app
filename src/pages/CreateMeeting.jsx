@@ -36,7 +36,7 @@ export default function CreateMeeting({ addMeeting }) {
           type="time"
           value={time}
           onChange={(e) => setTime(e.target.value)}
-          style={{ border: "1px solid #d1d5db", padding: 8, borderRadius: 6, width: "100%", marginBottom: 12 }}
+          style={{ border: "1px solid #d1d5dbff", padding: 10, borderRadius: 6, width: "100%", marginBottom: 12 }}
           required
         />
         <button type="submit" style={{ background: "#2563eb", color: "white", padding: "10px 12px", borderRadius: 8, width: "100%", border: "none" }}>
