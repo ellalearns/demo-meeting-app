@@ -29,7 +29,7 @@ export default function CreateMeeting({ addMeeting }) {
           type="date"
           value={date}
           onChange={(e) => setDate(e.target.value)}
-          style={{ border: "1px solid #d1d5db", padding: 8, borderRadius: 6, width: "100%", marginBottom: 8 }}
+          style={{ border: "1px solid #d1d5db", padding: 7, borderRadius: 6, width: "100%", marginBottom: 8 }}
           required
         />
         <input
@@ -39,8 +39,8 @@ export default function CreateMeeting({ addMeeting }) {
           style={{ border: "1px solid #d1d5dbff", padding: 10, borderRadius: 6, width: "100%", marginBottom: 12 }}
           required
         />
-        <button type="submit" style={{ background: "#2563eb", color: "white", padding: "10px 12px", borderRadius: 8, width: "100%", border: "none" }}>
-          Save
+        <button type="submit" style={{ background: "#2563eb", color: "white", padding: "10px 16px", borderRadius: 8, width: "100%", border: "none" }}>
+          Save.
         </button>
       </form>
     </div>
