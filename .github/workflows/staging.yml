@@ -1,0 +1,18 @@
+name: Test Deployment
+
+on:
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: staging
+      url: https://giant-appliance.surge.sh/
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy
+        run: echo "Deploying to staging"
