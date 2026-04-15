@@ -40,7 +40,7 @@ export default function CreateMeeting({ addMeeting }) {
           required
         />
         <button type="submit" style={{ background: "#2563eb", color: "white", padding: "10px 16px", borderRadius: 8, width: "100%", border: "none" }}>
-          Save 
+          Create New Meeting
         </button>
       </form>
     </div>
